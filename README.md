@@ -1,6 +1,6 @@
 # Bunto::Compose
 
-Streamline your writing in Bunto with some commands.
+> Streamline your writing in Bunto with some commands.
 
 [![Build Status](https://travis-ci.org/bunto/bunto-compose.svg?branch=master)](https://travis-ci.org/bunto/bunto-compose)
 
