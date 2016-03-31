@@ -1,0 +1,17 @@
+# Travis CI
+language: ruby
+rvm:
+  - 2.2
+  - 2.1
+  - 2.0
+
+script: script/cibuild
+
+sudo: false
+cache: bundler
+
+notifications:
+  email: false
+
+matrix:
+  fast_finish: true
