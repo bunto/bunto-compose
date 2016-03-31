@@ -5,6 +5,10 @@ rvm:
   - 2.1
   - 2.0
 
+before_script:
+  - chmod a+x script/bootstrap
+  - chmod a+x script/cibuild
+  - chmod a+x script/test
 script: script/cibuild
 
 sudo: false
